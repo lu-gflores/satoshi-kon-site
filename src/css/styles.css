@@ -1,3 +1,5 @@
+/* ----GLOBAL ELEMENTS---- */
+
 * {
     margin: 0;
     padding: 0;
@@ -10,11 +12,38 @@ html {
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
+.clearfix {
+    display: flow-root;
+}
 h1{
     color: white;
     letter-spacing: 2px;
 }
-
+h2 {
+    font-size: 180%;
+    letter-spacing: 1.2px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+h2:after {
+    display: block;
+    height: 2px;
+    content: '';
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+/* reuseable elements */
+section {
+    padding: 80px 0;
+}
+.box {
+    padding: 1%;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* Hero styles */
 header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/maxresdefault.jpg');
@@ -31,16 +60,6 @@ header{
     transform: translate(-50%, -50%);
 }
 
-.portrait {
-    border-radius: 50%;
-    width: 40%;
-    box-shadow: coral;
-}
-
-.row{
-    max-width: 1140px;
-    margin: 0 auto;
-}
 
 /* Naviation styles */
 .main-nav {
@@ -63,6 +82,19 @@ header{
 .main-nav li a:hover, .main-nav li a:active {
     border-bottom: 2px solid rgb(202, 155, 155);
 }
+/* SECTION BIO */
+.section-bio {
+    background-color: #f4f4f4;
+}
+
+.portrait {
+    border-radius: 50%;
+    width: 60%;
+    height: auto;
+    box-shadow: coral;
+}
+
+
 /* Picture showcase section */
 .media-section{
     padding: 0;
