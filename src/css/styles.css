@@ -20,6 +20,7 @@ header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/maxresdefault.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 100vh;
 }
 .hero-text-box {
@@ -31,7 +32,9 @@ header{
 }
 
 .portrait {
-    
+    border-radius: 50%;
+    width: 40%;
+    box-shadow: coral;
 }
 
 .row{
