@@ -142,6 +142,39 @@ header{
     transform: scale(1.03);
     opacity: 1;
 }
+/* Critics section */
+.critics-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/pic-9.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+blockquote {
+    margin-top: 35px;
+    padding: 2px;
+    line-height: 145%;
+    position: relative;
+    font-style: italic;
+}
+cite {
+    font-size: 90%;
+    display: block;
+    margin-top: 23px;
+}
+cite img {
+    height: 45px;
+    margin-right: 10px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+blockquote::before {
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -3px;
+    font-size: 500%;
+}
+
 
 /* Footer styles*/
 
