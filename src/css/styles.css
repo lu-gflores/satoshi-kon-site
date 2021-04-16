@@ -53,6 +53,15 @@ section {
     max-width: 1140px;
     margin: 0 auto;
 }
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    font-size: 120%;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
 /* Hero styles */
 header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/maxresdefault.jpg');
@@ -103,7 +112,7 @@ header{
     box-shadow: coral;
     border: 1px solid #ddd;
     padding: 2px;
-    box-shadow: 0 0 rgb(143, 118, 118);
+    box-shadow: 5px 5px 10px rgb(143, 118, 118);
 }
 /* ACCLAIMED FILMS SECTION */
 .box img {
@@ -147,6 +156,12 @@ header{
     width: 100%;
     height: 300px;
     margin-bottom: 15px ;
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px rgb(143, 118, 118);
+}
+
+.award-title {
+    margin-bottom: 16px;
 }
 
 /* Critics section */
