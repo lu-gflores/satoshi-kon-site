@@ -8,7 +8,26 @@
     }
 }
 @media only screen and (max-width: 1023px) {
-    
+    body {
+        font-size: 18px;
+    }
+    section {
+        padding: 60px 0;
+    }
+    /* .long-text {
+        width: 80%;
+        margin-left: 10%;
+    } */
+    .box p {
+        font-size: 90%;
+    }
+    .portrait {
+        width: 100%;
+    }
+    .icon-small {
+        margin-right: 10px;
+        width: 14px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -33,9 +52,12 @@
     .main-nav {
         display: none;
     }
-    .long-text {
+    /* .long-text {
         width: 100%;
         margin-left: 0;
+    } */
+    .box p {
+        margin-bottom: 20px;
     }
 }
 
