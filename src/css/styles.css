@@ -105,6 +105,10 @@ header{
     background-color: #f4f4f4;
 }
 
+.bio p {
+    font-size: 90%;
+    line-height: 145%;
+}
 .portrait {
     border-radius: 8px;
     width: 80%;
@@ -172,7 +176,7 @@ header{
     color: #fff;
 }
 blockquote {
-    margin-top: 35px;
+    margin-top: 40px;
     padding: 2px;
     line-height: 145%;
     position: relative;
@@ -189,11 +193,12 @@ cite img {
     border-radius: 50%;
     vertical-align: middle;
 }
-blockquote::before {
+blockquote:before {
     display: block;
     position: absolute;
     top: -5px;
     left: -3px;
+    content: '\201C';
     font-size: 500%;
 }
 
