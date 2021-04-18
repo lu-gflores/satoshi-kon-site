@@ -41,9 +41,7 @@ h1:after{
     background-color: rgb(202, 155, 155);
     transition: width 1s ease;
 }
-h1:after + h1:hover {
-    width: 50%;
-}
+
 h2:after {
     display: block;
     height: 2px;
@@ -52,6 +50,10 @@ h2:after {
     margin: 0 auto;
     margin-top: 30px;
     background-color: rgb(202, 155, 155);
+}
+h1:hover + h1:after  {
+    width: 50%;
+    content: '';
 }
 /* reuseable elements */
 section {
