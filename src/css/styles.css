@@ -202,7 +202,13 @@ blockquote:before {
     font-size: 500%;
 }
 
+/* INFLUENCE IN MEDIA SECTION. */
 
+.comparison img {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
 /* Footer styles*/
 
 footer {
