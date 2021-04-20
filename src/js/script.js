@@ -49,6 +49,11 @@ $(document).ready(function () {
         });
 
     // mobile navgiation menu
-    $('')
+    $('.js-menu-icon').click(function () {
+        const nav = $('.js-main-nav')
+        const icon = $('.js-menu-icon ion-icon')
+        nav.slideToggle(200)
+
+    })
 
 })

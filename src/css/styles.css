@@ -115,7 +115,7 @@ header{
 }
 /* STICKY NAVIGATION BAR */
 .sticky-nav {
-    padding: 20px;
+    padding: 18px;
     position: fixed;
     top: 0;
     left: 0;
