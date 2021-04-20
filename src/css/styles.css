@@ -132,6 +132,17 @@ header{
     padding: 16px 0;
 }
 
+/* MOBILE NAVIGATION */
+.mobile-nav {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+.mobile-nav ion-icon {
+    font-size:200%;
+    color: #fff;
+}
 
 /* SECTION BIO */
 .section-bio {

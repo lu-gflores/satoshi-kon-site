@@ -55,10 +55,42 @@
     .main-nav {
         display: none;
     }
+    .mobile-nav {
+        display: inline-block;
+    }
     /* .long-text {
         width: 100%;
         margin-left: 0;
     } */
+    .main-nav li {
+        display: block;
+    }
+    .main-nav li a:link, .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+
+    .sticky-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.97);
+        box-shadow: 0 2px 2px #555;
+        z-index: 9999;
+    }
+    .sticky-nav .main-nav {
+        margin-top: 10px;
+    }
+    .sticky-nav .main-nav li a:link, .sticky-nav .main-nav li a:visited {
+        padding: 10px 0;
+    }
+    .sticky-nav .mobile-nav ion-icon {
+        color: #555;
+    }
+
     .box p {
         margin-bottom: 20px;
     }
