@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="src/css/queries.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet" />
-    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <!-- <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script> -->
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
     <title>Satoshi Kon</title>
 </head>
 
@@ -21,9 +23,9 @@
         <nav>
             <div class="row">
                 <ul class="main-nav">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Works</a></li>
-                    <li><a href="#">Media</a></li>
+                    <li><a href="#bio">About</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#media">Media</a></li>
                 </ul>
             </div>
         </nav>
@@ -32,7 +34,7 @@
         </div>
     </header>
     <!-- Bio Section -->
-    <section class="section-bio bio-waypoint">
+    <section class="section-bio bio-waypoint" id="bio">
         <div class="row">
             <h2>Satoshi Kon</h2>
             <h3>1963 - 2010</h3>
@@ -58,7 +60,7 @@
         </div>
     </section>
     <!-- Works section -->
-    <section class="works-section">
+    <section class="works-section" id="works">
         <div class="row">
             <h2>Critically Acclaimed Works</h2>
         </div>
@@ -146,7 +148,7 @@
         </ul>
     </section>
     <!-- awards section -->
-    <section class="awards-section">
+    <section class="awards-section" id="media">
         <div class="row">
             <h2>Awards Won</h2>
         </div>

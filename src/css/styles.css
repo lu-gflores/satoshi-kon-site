@@ -279,6 +279,9 @@ footer p, footer p a{
 .social-links li a:link, .social-links li a:visited {
     font-size: 155%;
 }
+.footer-nav li:last-child, .social-links li:last-child {
+    margin-right: 0;
+}
 
 .linkedin-icon:hover {
     color: cadetblue;
@@ -288,4 +291,7 @@ footer p, footer p a{
 }
 .github-icon:hover {
     color: #ddd;
+}
+.linkedin-icon, .twitter-icon, .github-icon {
+    transition: color 0.3s;
 }
