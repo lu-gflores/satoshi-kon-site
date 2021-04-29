@@ -341,3 +341,18 @@ footer p, footer p a{
     -o-transition: color 0.3s;
     transition: color 0.3s;
 }
+
+/* ------animate css on scroll */
+.js-hero-text-box {
+    opacity: 0;
+}
+.js-hero-text-box.animated {
+    opacity: 1;
+}
+
+.js-critics{
+    opacity: 0;
+}
+.js-critics.animate {
+    opacity: 1;
+}

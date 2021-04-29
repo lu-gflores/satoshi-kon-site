@@ -47,6 +47,24 @@ $(document).ready(function () {
                 }
             }
         });
+    // animate css 
+    $('.js-hero-text-box').waypoint(function () {
+        $('.js-hero-text-box').addClass('animated fadeInTopLeft')
+    }, {
+        offset: '50%'
+    })
+
+    $('.js-critics-title').waypoint(function () {
+        $('.js-critics-title').addClass('animated bounceInUp')
+    }, {
+        offset: '90%'
+    })
+
+    $('.js-critics').waypoint(function () {
+        $('.js-critics').addClass('animated fadeInUp')
+    }, {
+        offset: '50%'
+    })
 
     // mobile navgiation menu
     $('.js-menu-icon').click(function () {
