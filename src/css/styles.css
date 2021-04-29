@@ -343,12 +343,12 @@ footer p, footer p a{
 }
 
 /* ------animate css on scroll */
-.js-hero-text-box {
+/* .hero-title {
     opacity: 0;
 }
-.js-hero-text-box.animated {
+.hero-title.animate {
     opacity: 1;
-}
+} */
 
 .js-critics{
     opacity: 0;

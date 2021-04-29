@@ -48,11 +48,11 @@ $(document).ready(function () {
             }
         });
     // animate css 
-    $('.js-hero-text-box').waypoint(function () {
-        $('.js-hero-text-box').addClass('animated fadeInTopLeft')
-    }, {
-        offset: '50%'
-    })
+    // $('.js-hero-text-box').waypoint(function () {
+    //     $('.js-hero-text-box').addClass('animated fadeInTopLeft')
+    // }, {
+    //     offset: '90%'
+    // })
 
     $('.js-critics-title').waypoint(function () {
         $('.js-critics-title').addClass('animated bounceInUp')
@@ -64,6 +64,17 @@ $(document).ready(function () {
         $('.js-critics').addClass('animated fadeInUp')
     }, {
         offset: '50%'
+    })
+
+    $('.js-influence-image-1').waypoint(function () {
+        $('.js-influence-image-1').addClass('animated bounceInLeft')
+    }, {
+        offset: '85%'
+    })
+    $('.js-influence-image-2').waypoint(function () {
+        $('.js-influence-image-2').addClass('animated bounceInRight')
+    }, {
+        offset: '85%'
     })
 
     // mobile navgiation menu
