@@ -356,3 +356,21 @@ footer p, footer p a{
 .js-critics.animate {
     opacity: 1;
 }
+.js-acclaimed-title {
+    opacity: 0;
+}
+.js-films {
+    opacity: 0;
+}
+.js-films.animate {
+    opacity: 1;
+}
+.js-acclaimed-title.animate {
+    opacity: 1;
+}
+.js-influence-image-1, .js-influence-image-2 {
+    opacity: 0;
+}
+.js-influence-image-1.animate, .js-influence-image-2.animate {
+    opacity: 1;
+}

@@ -47,17 +47,34 @@ $(document).ready(function () {
                 }
             }
         });
-    // animate css 
+    // Animate CSS Waypoints
     // $('.js-hero-text-box').waypoint(function () {
     //     $('.js-hero-text-box').addClass('animated fadeInTopLeft')
     // }, {
     //     offset: '90%'
     // })
 
+    $('.js-header-name').waypoint(function () {
+        $('.js-header-name').addClass('animated bounceInUp')
+    }, {
+        offset: '96%'
+    })
+
+    $('.js-acclaimed-title').waypoint(function () {
+        $('.js-acclaimed-title').addClass('animated fadeInUp')
+    }, {
+        offset: '91%'
+    })
+
     $('.js-critics-title').waypoint(function () {
         $('.js-critics-title').addClass('animated bounceInUp')
     }, {
         offset: '90%'
+    })
+    $('.js-films').waypoint(function () {
+        $('.js-films').addClass('animated fadeInUp')
+    }, {
+        offset: '85%'
     })
 
     $('.js-critics').waypoint(function () {
@@ -67,14 +84,14 @@ $(document).ready(function () {
     })
 
     $('.js-influence-image-1').waypoint(function () {
-        $('.js-influence-image-1').addClass('animated bounceInLeft')
+        $('.js-influence-image-1').addClass('animated fadeInLeftBig')
     }, {
-        offset: '85%'
+        offset: '90%'
     })
     $('.js-influence-image-2').waypoint(function () {
-        $('.js-influence-image-2').addClass('animated bounceInRight')
+        $('.js-influence-image-2').addClass('animated fadeInRightBig')
     }, {
-        offset: '85%'
+        offset: '90%'
     })
 
     // mobile navgiation menu
