@@ -7,7 +7,7 @@
 A single page site built using HTML, CSS, and jQuery. The site contains content based on the renowned Japanese film director Satoshi Kon regarding his bio, films,
 awards, etc.
 
-Demo:
+Demo: https://lu-gflores.github.io/satoshi-kon-site/
 
 ## Tech Used
 
